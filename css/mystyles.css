@@ -1,0 +1,155 @@
+
+*{
+    box-sizing: border-box;
+    ;
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+h1{
+    text-align: center;
+}
+.header1{
+    background-color: #D59898;
+
+}
+.header2{
+    background-color: #C14543;
+    color: white;
+}
+.header3{
+    background-color: #E5D198;
+}
+
+.header1,.header2,.header3{
+    border: 3px solid black;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    float: right;
+    position: relative;
+    top: -3px;
+    right: -3px;
+    font-weight: bold;
+}
+.text{
+    float: left;
+    padding: 10px;
+}
+.container{
+    float: left;
+    background-color: #7A7A7A;
+    margin-bottom: 1%;
+}
+.column1,.column2{
+    margin-right: 1%;
+}
+
+/*desktop version*/
+
+@media(min-width: 992px)
+{
+    .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12
+    {
+        border: 3px solid black;        
+    }
+    .col-lg-1
+    {
+        width: 8.16%;
+    }
+    .col-lg-2
+    {
+        width: 16.32%;
+    }
+    .col-lg-3
+    {
+        width: 24.48%;
+    }
+    .col-lg-4
+    {
+        width: 32.64%;
+    }
+    .col-lg-5
+    {
+        width: 40.80%;
+    }
+    .col-lg-6
+    {
+        width: 48.96%;
+    }
+    .col-lg-7
+    {
+        width: 57.12%;
+    }
+    .col-lg-8
+    {
+        width: 65.28%;
+    }
+    .col-lg-9
+    {
+        width: 73.44%;
+    }
+    .col-lg-10
+    {
+        width: 81.60%;
+    }
+    .col-lg-11
+    {
+        width: 89.76%;
+    }
+    .col-lg-12
+    {
+        width: 98%;
+    }
+
+}
+
+/*tablet version*/
+
+@media(min-width: 768px ) and (max-width: 991px)
+{
+    .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12
+    {
+        border: 3px solid black;        
+    }
+    .col-md-1
+    {
+        width: 16.33%;
+    }
+    .col-md-2
+    {
+        width: 32.66%;
+    }
+    .col-md-3
+    {
+        width: 48.99%;
+    }
+    .col-md-4
+    {
+        width: 65.32%;
+    }
+    .col-md-5
+    {
+        width: 81.66%;
+    }
+    .col-md-6
+    {
+        width: 99%;
+    }
+
+}
+
+/*mobile version*/
+@media(max-width: 767px)
+{
+    .col-sm-1
+    {
+        border: 3px solid black;        
+    }
+    .col-sm-1
+    {
+        width: 99%;
+    }
+    
+}
